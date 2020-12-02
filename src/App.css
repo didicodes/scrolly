@@ -1,38 +1,84 @@
-.App {
+
+*{
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+.first{
+  width: auto;
+  height:500px;
+  background-color:  #fdfffc;
+  margin-top: 30px;
+}
+
+.second{
+  width:auto;
+  height: 400px;
+  background-color: #e0fbfc;
+}
+
+.third{
+  width: auto;
+  height: 400px;
+  background-color: #fdfffc;
+}
+
+.line {
+  width: 100%;
+  max-width: 1400px;
+  height: 20px;
+  margin-top:20px;
+  position: relative;
+  display: inline-block;
+  background-color:#023047;
+}
+
+h1{
   text-align: center;
+  padding-top: 90px;
+  color: #023047;
+  font-size: 60px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.first-paragraph{
+  text-align: center;
+  color: #023047;
+  font-size: 20px;
+  font-weight: bold;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.logo-main{
   align-items: center;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+#workout-logo{
+  width: 500px;
+  height: 300px;
+  margin-top: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+#gsap-logo{
+  width: 500px;
+  height: 300px;
+  margin-top: 50px;
+  padding-right: 80px;
+}
+
+#happy-logo{
+  width: 500px;
+  height: 300px;
+}
+
+.second-paragraph{
+  font-size: 30px;
+  margin-top: 40px;
+}
+
+.third-paragraph{
+  font-size: 30px;
+  margin-top: 40px;
 }
